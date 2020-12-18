@@ -1,0 +1,18 @@
+commit 17db0528ad6ca73ac7d7b572e7b884cb122fdbfb
+Author: Michał Bogucki <michal1bogucki@gmail.com>
+Date:   Fri Dec 18 18:22:38 2020 +0100
+
+    pli mod
+
+commit 9fad09e58cf81e238c3283a2cb923209a8560197
+Author: Michał Bogucki <michal1bogucki@gmail.com>
+Date:   Fri Dec 18 18:20:01 2020 +0100
+
+            new file:   .gitignore
+            new file:   plik_textowy.txt
+
+commit 6d590eac7969541ce5ce24fb7a024933b9a204dc
+Author: Michał Bogucki <michal1bogucki@gmail.com>
+Date:   Fri Dec 18 18:04:37 2020 +0100
+
+     Initial commit
