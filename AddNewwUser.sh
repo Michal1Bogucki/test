@@ -1,8 +1,8 @@
 #!/bin/bash
 ##
-echo $'Podaj nazwę urzytkownika:\n'
+echo $'Podaj nazwę użytkownika:\n'
 read USER_NAME
-echo $'Ponownie podaj nazwę urzytkownika:\n'
+echo $'Ponownie podaj nazwę użytkownika:\n'
 read USER_NAME_CONFIRM
 
 if [ "$USER_NAME" = "$USER_NAME_CONFIRM" ]; then
@@ -31,11 +31,11 @@ read -s PASSWORD_CONFIRM
 	$p cat /home/$USER_NAME/.ssh/${USER_NAME}_id_rsa.pub >> /home/$USER_NAME/.ssh/authorized_keys
 	#mv ./${USER_NAME}_id_rsa.ppk /home/$USER_NAME/export/
 	else
-	echo "Hasła niezgadzają się"
+	echo "Hasła nie zgadzają się"
 	fi
 
 else
-echo "Nazwa urzytkownika niezgadza się"
+echo "Nazwa użytkownika nie zgadza się"
 fi
 
 
